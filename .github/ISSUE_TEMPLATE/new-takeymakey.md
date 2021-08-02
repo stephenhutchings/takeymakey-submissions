@@ -15,16 +15,16 @@ A clear and concise description of what the tool does.
 
 **Your Code**
 ```javascript
-({
-  "take": [ /* some inputs */ ],
-  "make": () => [ /* some output */ ]
-})
+    ({
+      "take": [ /* some inputs */ ],
+      "make": () => [ /* some output */ ]
+    })
 ```
 
 **Placeholder data**
 When you first load the tool, populate with this data.
 ```json
 {
-  "key": "val",
+  key: "val",
 }
 ```
