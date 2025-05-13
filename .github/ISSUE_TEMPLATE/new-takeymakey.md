@@ -7,24 +7,17 @@ assignees: stephenhutchings
 
 ---
 
-**Title**
-A simple and obvious name for your tool
+### Title
+A simple and obvious name for your tool.
 
-**Description**
+### Description
 A clear and concise description of what the tool does.
 
-**Your Code**
-```javascript
-    ({
-      "take": [ /* some inputs */ ],
-      "make": () => [ /* some output */ ]
-    })
-```
+### Code
+The code that powers the tool, or a link to an [example](https://www.takeymakey.com/new-takeymakey/?code=KYDwDg9gTgLgBAYwgOwM7xgQwNbDgXjgG04B6AKjlQgFs8BLZMAVxlTnNLgF0AoX0JFiIU6ODRx5CACgCUBAHzEylanTgRWLeJx5A).
 
-**Placeholder data**
-When you first load the tool, populate with this data.
-```json
-{
-  key: "val",
-}
+```javascript
+export const take = [ /* some inputs */ ]
+
+export const make = () => [ /* some output */ ]
 ```
